@@ -37,20 +37,22 @@ td{
     text-align: top;
 }
 /* Column Styles */
-col#firstCol {
+#firstCol {
 width: 24%;
 }
+/* this affects the column and it would affect the span by 2.*/
 
-col.dataCols {
+.dataCols {
     width: 19%;
 }
+/*  this is affects the spacing between the columns to make it look not so cramped. */
 /* Table Header Styles */
 
 thead tr, thead th {
     height: 60px;
 }
 
-th:first-of-type {
+thead tr:first-of-type th:first-of-type {
     font-size: 2em;
 }
 
